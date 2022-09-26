@@ -1,0 +1,142 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar style="--background: white; --border-width: 0px">
+    <ion-grid>
+      <ion-row class="email">
+        <ion-col size="10">
+          <ion-input placeholder="Search" class="input-class">
+            <ion-icon class="icon" name="search-outline"
+              >Search</ion-icon
+            ></ion-input
+          ></ion-col
+        >
+        <ion-col size="2">
+          <ion-icon class="send" name="share-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row style="padding-left: 15px; padding-right: 15px" class="menu">
+        <ion-segment
+          [(ngModel)]="selectedSegment"
+          (ionChange)="segmentChanged($event)"
+          class="segm"
+          mode="md"
+        >
+          <ion-segment-button value="popular">
+            <ion-label>Popular</ion-label>
+          </ion-segment-button>
+          <ion-segment-button value="trending">
+            <ion-label>Trending</ion-label>
+          </ion-segment-button>
+          <ion-segment-button value="following">
+            <ion-label>Following</ion-label>
+          </ion-segment-button>
+        </ion-segment>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="--background: #f3f5f7">
+  <div *ngIf="selectedSegment == 'popular'">
+    <ion-card *ngFor="let i of populars">
+      <div class="title">
+        <img
+          src="./assets/icon/abc23.png "
+          class="image"
+          (click)="onimgClick()"
+        />
+      </div>
+      <div (click)="onPostClick()">
+        <img class="img2" [src]="i.postImage" />
+      </div>
+      <ion-row>
+        <ion-col size="7">
+          <ion-icon class="i2" name="add-circle-outline"></ion-icon
+        ></ion-col>
+
+        <ion-col size="2.5"
+          ><div class="num">
+            {{i.commentCount}}
+            <ion-icon
+              class="i2"
+              name="chatbubble-ellipses-outline"
+            ></ion-icon></div
+        ></ion-col>
+
+        <ion-col size="2.5"
+          ><div class="num">
+            {{i.likeCount}}
+            <ion-icon class="i2" name="heart-outline"></ion-icon></div
+        ></ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+
+  <div *ngIf="selectedSegment == 'trending'">
+    <ion-card *ngFor="let i of trending">
+      <div class="title">
+        <img
+          src="./assets/icon/abc23.png "
+          class="image"
+          (click)="onimgClick()"
+        />
+      </div>
+      <div (click)="onPostClick()">
+        <img class="img2" [src]="i.postImage" />
+      </div>
+      <ion-row>
+        <ion-col size="7">
+          <ion-icon class="i2" name="add-circle-outline"></ion-icon
+        ></ion-col>
+
+        <ion-col size="2.5"
+          ><div class="num">
+            {{i.commentCount}}
+            <ion-icon
+              class="i2"
+              name="chatbubble-ellipses-outline"
+            ></ion-icon></div
+        ></ion-col>
+
+        <ion-col size="2.5"
+          ><div class="num">
+            {{i.likeCount}}
+            <ion-icon class="i2" name="heart-outline"></ion-icon></div
+        ></ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+  <div *ngIf="selectedSegment == 'following'">
+    <ion-card *ngFor="let i of following">
+      <div class="title">
+        <img
+          src="./assets/icon/abc23.png "
+          class="image"
+          (click)="onimgClick()"
+        />
+      </div>
+      <div (click)="onPostClick()">
+        <img class="img2" [src]="i.postImage" />
+      </div>
+      <ion-row>
+        <ion-col size="7">
+          <ion-icon class="i2" name="add-circle-outline"></ion-icon
+        ></ion-col>
+
+        <ion-col size="2.5"
+          ><div class="num">
+            {{i.commentCount}}
+            <ion-icon
+              class="i2"
+              name="chatbubble-ellipses-outline"
+            ></ion-icon></div
+        ></ion-col>
+
+        <ion-col size="2.5"
+          ><div class="num">
+            {{i.likeCount}}
+            <ion-icon class="i2" name="heart-outline"></ion-icon></div
+        ></ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+</ion-content>

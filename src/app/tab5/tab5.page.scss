@@ -1,0 +1,85 @@
+.bg {
+  background: url(/assets/icon/mask.png);
+  height: 25%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.id {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding-left: 20%;
+}
+.set {
+  color: white;
+  font-size: larger;
+  //   font-weight: 1000;
+}
+.mainid {
+  padding-top: 40px;
+}
+.dp {
+  text-align: center;
+  padding-top: 20px;
+}
+.name {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.name2 {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+  padding-top: 10px;
+}
+.folow {
+  display: flex;
+  justify-content: center;
+}
+.num {
+  border: 1px;
+  background: #f6f7f9;
+  border-radius: 10px;
+  width: 347px;
+  height: 40px;
+  padding: 8px 20px;
+  margin: 4%;
+}
+.int {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.text {
+  font-size: 14px;
+
+  color: gray;
+}
+.icons {
+  font-size: 23px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.menu {
+  padding: 4%;
+}
+
+.img {
+  height: 103.33333587646484px;
+  width: 155px;
+  left: 195px;
+  top: 449px;
+  border-radius: 10px;
+}
+.img22 {
+  border-radius: 15px;
+}
+.imgmain {
+  padding-left: 6%;
+  padding-right: 6%;
+}

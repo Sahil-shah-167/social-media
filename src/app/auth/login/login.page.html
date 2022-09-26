@@ -1,0 +1,38 @@
+<ion-content>
+  <div class="bg"></div>
+  <div class="login-content">
+    <div class="email">
+      <ion-input class="input-class"> <div class="abc">Email</div></ion-input>
+    </div>
+    <div class="email">
+      <ion-input class="input-class">
+        <div class="abc">Password</div>
+        <div class="eye">
+          <ion-icon name="eye-outline"></ion-icon></div
+      ></ion-input>
+    </div>
+    <div class="fp">
+      <a (click)="onforgotClick()" class="forogot">Forgot Password</a>
+    </div>
+    <div class="login">
+      <ion-button
+        (click)="onLoginClick()"
+        class="rbtn"
+        shape="round"
+        fill="clear"
+        >LOG IN</ion-button
+      >
+    </div>
+    <div class="or">OR LOG IN by</div>
+    <div class="mainlg">
+      <ion-icon class="logo" name="logo-google" fill="round"></ion-icon>
+      <ion-icon class="logo1" name="logo-facebook" fill="round"></ion-icon>
+    </div>
+    <div class="account">
+      <p class="p">Don't have account?</p>
+      <ion-button (click)="onSignupClick()" fill=" clear" class="up"
+        >SIGN UP</ion-button
+      >
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,66 @@
+.input-class {
+  border: darkgray;
+  border-radius: 20px;
+  background-color: #f3f5f7;
+  color: black;
+  font-size: large;
+  height: 40px;
+
+  border-radius: 30px;
+}
+.email {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #5252c7;
+}
+.send {
+  margin-top: 5px;
+  border: 5px solid #f3f5f7;
+  border-radius: 20px;
+  background: #f3f5f7;
+  color: black;
+  font-size: 23px;
+}
+.image {
+  height: 139.99996948242242px;
+  width: 100%;
+  left: 335px;
+  top: 140px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+
+  filter: brightness(0.5);
+  border-radius: 12px;
+}
+.coll {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.text {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 120%;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.collection {
+  position: relative;
+  margin: 10px;
+  margin-bottom: 0px !important;
+}
+.row11 {
+}

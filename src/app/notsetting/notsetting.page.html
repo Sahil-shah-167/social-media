@@ -1,0 +1,15 @@
+<ion-content>
+  <div class="title">Activity Feed</div>
+
+  <ion-row class="maindiv" *ngFor="let c of collection">
+    <ion-col size="10" class="collection">{{c.collectionName}}</ion-col>
+    <ion-col size="2">
+      <ion-toggle
+        name="grape"
+        color="tertiary"
+        checked
+        class="toggle"
+      ></ion-toggle>
+    </ion-col>
+  </ion-row>
+</ion-content>

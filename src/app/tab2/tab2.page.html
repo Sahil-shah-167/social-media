@@ -1,0 +1,58 @@
+<ion-content>
+  <ion-row class="email">
+    <ion-col size="10">
+      <ion-input class="input-class">
+        <ion-icon class="icon" name="search-outline"
+          >Search</ion-icon
+        ></ion-input
+      ></ion-col
+    >
+    <ion-col size="2">
+      <ion-icon class="send" name="share-outline"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <ion-row class="topic">
+    <ion-col size="9" class="col1">Topic </ion-col>
+    <ion-col size="3"
+      ><a (click)="onviewClick() " class="col2">View more</a>
+    </ion-col>
+    <ion-col>
+      <div class="item-container">
+        <div *ngFor="let i of Topic" class="item-card">
+          <img class="img1" [src]="i.image1" />
+          <div class="topic-name">{{i.collectionName1}}</div>
+        </div>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="topic">
+    <ion-col size="9" class="col1">Collection </ion-col>
+    <ion-col size="3"
+      ><a (click)="onviewClick() " class="col2">View more</a>
+    </ion-col>
+    <ion-col>
+      <div class="item-container">
+        <div *ngFor="let c of collection" class="item-card">
+          <img class="img2" [src]="c.image" />
+          <span class="collection-name">{{ c.collectionName }}</span>
+          <div class="photoCount">{{c.photoCount}} Photos</div>
+        </div>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="topic">
+    <ion-col size="9" class="col1"> Challanges</ion-col>
+    <ion-col size="3"
+      ><a (click)="onview1Click() " class="col2">Challange</a>
+    </ion-col>
+    <ion-col>
+      <div class="item-container">
+        <div *ngFor="let c of collection" class="item-card">
+          <img class="img2" [src]="c.image" />
+          <span class="collection-name">{{ c.collectionName }}</span>
+          <div class="photoCount">{{c.photoCount}} Photos</div>
+        </div>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>

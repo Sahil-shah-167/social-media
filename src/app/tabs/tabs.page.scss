@@ -1,0 +1,19 @@
+// .tabs {
+//   color: #5151c6;
+// }
+
+ion-icon {
+  font-size: 22px;
+}
+
+.add-btn {
+  --background: linear-gradient(270.95deg, #888bf4 0%, #5151c6 100%);
+  --border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  bottom: 40px;
+  z-index: 99;
+  left: 42%;
+  --border-color: red;
+}

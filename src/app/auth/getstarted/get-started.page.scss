@@ -1,0 +1,43 @@
+.content {
+  --background: url(/assets/icon/Rectangle1973.png);
+}
+
+.click {
+  font-size: xx-large;
+  color: whitesmoke;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.caption {
+  height: 17px;
+  text-align: center;
+  /* Caption */
+
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  /* Grey Scale/White */
+
+  color: #ffffff;
+}
+.btn12 {
+  text-align: center;
+  background: rgba(208, 208, 208, 0.3);
+  backdrop-filter: blur(8px);
+  /* Note: backdrop-filter has minimal browser support */
+  text-align: center;
+  color: lightgray;
+}
+.start {
+  text-align: center;
+  margin-top: 10px;
+}

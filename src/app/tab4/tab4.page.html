@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-row class="row1">
+    <ion-col size="3" class="title"> Activity </ion-col>
+    <ion-col size="8" class="num"> (03) </ion-col>
+    <ion-col size="1" class="setting"
+      ><ion-icon name="settings-outline" (click)="onsettingClick()"></ion-icon>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="comment" *ngFor="let i of [1,1,1,1,1,1,1]">
+    <ion-col size="1.5">
+      <img src="./assets/icon/dp.png" class="profile" />
+    </ion-col>
+    <ion-col
+      ><div class="name1">Bruno Pham</div>
+      <div class="cmt">
+        <div class="liked">liked</div>
+        “Autumn in my heart”
+      </div>
+      <div class="time1">2 mins ago</div>
+    </ion-col>
+    <ion-col class="col22" size="3">
+      <img src="./assets/icon/leaves.png" />
+    </ion-col>
+  </ion-row>
+</ion-content>

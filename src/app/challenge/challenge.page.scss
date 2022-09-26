@@ -1,0 +1,173 @@
+.click {
+  font-size: xx-large;
+  color: white;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bg {
+  background: url(/assets/welcome-img.png);
+  height: 40%;
+  width: 100%;
+}
+
+.login-content {
+  height: 60%;
+  width: 100%;
+  margin-top: -40px;
+  background: #ffffff;
+  border-radius: 28px 28px 0px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+.input-class {
+  border: gray;
+  border-radius: 20px;
+  background-color: #f1f1fe;
+  color: lightgrey;
+  font-size: small;
+  height: 50px;
+  padding-left: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.email {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.rbtn {
+  display: flex;
+  justify-content: center;
+  color: #f3f5f7;
+  font-weight: 550;
+  font-size: 14px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #5252c7;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 35px;
+  width: 80%;
+  position: fixed;
+}
+
+.abc {
+  padding-left: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.or {
+  font-family: Circular Std;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #5252c7;
+}
+.mainlg {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.veri {
+  text-align: center;
+  letter-spacing: 0.8px;
+  font-size: small;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #5252c7;
+  font-weight: 700;
+}
+.message {
+  height: 50px;
+  text-align: center;
+  padding-top: 16px;
+}
+.text {
+  text-align: center;
+}
+.eye {
+  padding-top: 10px;
+  padding-left: 200px;
+  color: darkgray;
+  display: flex;
+  width: 100%;
+  padding-left: 161px;
+}
+.put-class {
+  border: gray;
+  border-radius: 20px;
+  background-color: #f1f1fe;
+  color: lightgrey;
+  font-size: small;
+  height: 50px;
+  padding-left: 50px;
+  border-radius: 10px;
+  margin-top: -60px;
+}
+.card {
+  margin-top: -28px;
+}
+.eyes {
+  padding-left: 60%;
+  color: darkgray;
+}
+.maintext {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.t350 {
+  color: #5252c7;
+  padding-right: 5px;
+  font-weight: 600;
+  font-size: small;
+}
+.text {
+  font-size: small;
+}
+.dimond {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.tcha {
+  font-weight: 700;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.dim {
+  color: #5252c7;
+}
+.pg {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding-left: 10px;
+}
+.img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+}

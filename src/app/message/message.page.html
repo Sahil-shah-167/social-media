@@ -1,0 +1,47 @@
+<ion-content>
+  <ion-row class="row">
+    <ion-col size="1">
+      <ion-icon name="arrow-back-outline" (click)="onarrowClick()"></ion-icon>
+    </ion-col>
+    <ion-col class="title" size="10">Message</ion-col>
+    <ion-col size="1"><ion-icon name="create-outline"></ion-icon></ion-col>
+  </ion-row>
+  <ion-grid *ngFor="let i of [1,1,1,1,]">
+    <ion-row class="comment">
+      <ion-col size="1.5">
+        <img src="./assets/icon/idmessage.png" class="pic" />
+      </ion-col>
+      <ion-col
+        ><div class="name1">Bruno Pham</div>
+        <div class="cmt">Hello, I really like your photo about...</div>
+        <div class="time1">2 mins ago</div>
+      </ion-col>
+      <ion-col class="col22" size="2">
+        <div class="num">20</div>
+        <ion-icon
+          name="chatbubble-ellipses-outline"
+          (click)="onchatClick()"
+          class="chat"
+        ></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row class="comment1">
+      <ion-col size="1.5">
+        <img src="./assets/icon/idmessage.png" class="pic" />
+      </ion-col>
+      <ion-col
+        ><div class="name1">Bruno Pham</div>
+        <div class="cmt1">Hello, I really like your photo about...</div>
+        <div class="time1">2 mins ago</div>
+      </ion-col>
+      <ion-col class="col2" size="2">
+        <div class="num">20</div>
+        <ion-icon
+          (click)="onchatClick()"
+          name="chatbubble-ellipses-outline"
+          class="chat"
+        ></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

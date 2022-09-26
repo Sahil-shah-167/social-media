@@ -1,0 +1,61 @@
+<ion-content>
+  <ion-grid class="grid">
+    <ion-row class="logos">
+      <ion-col size="7.5" class="arrow">
+        <ion-icon (click)="onBackClick()" name="arrow-back-outline"></ion-icon>
+      </ion-col>
+      <ion-col size="1.5"><ion-icon name="heart-outline"></ion-icon></ion-col>
+      <ion-col size="1.5"
+        ><ion-icon (click)="oncircleClick()" name="add-circle-outline"></ion-icon
+      ></ion-col>
+      <ion-col size="1.5"><ion-icon name="share-outline"></ion-icon> </ion-col>
+    </ion-row>
+
+    <ion-row class=>
+      <ion-col size="2">
+        <img src="./assets/icon/dp.png" class="image" />
+      </ion-col>
+      <ion-col size="7" class="name">Thanh Pham</ion-col>
+      <ion-col size="3" class="time">1 hour ago</ion-col>
+      <img class="img23" src="./assets/icon/abcd2.png"
+    /></ion-row>
+    <ion-row class="row1">
+      <ion-col size="4" class="col1" >
+        <div class="num">125</div>
+        <ion-icon name="eye-outline" class="color"></ion-icon>
+
+      </ion-col>
+      <ion-col size="4" class="col1"
+        ><div  class="num">20</div><ion-icon name="chatbubble-ellipses-outline" class="color"></ion-icon>
+      </ion-col>
+      <ion-col size="4" class="col1"><div  class="num">125</div><ion-icon name="heart-outline" class="color"></ion-icon></ion-col>
+    </ion-row> 
+    <div class="texts">Street portrait</div>
+    <p class="pg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis risus, neque cursus risus. Eget dictumst vitae enim, felis morbi. Quis risus, neque cursus risus. Eget dictumst vitae enim, felis morbi. Quis risus, neque cursus risus. </p>
+   
+   <ion-row class="comment" *ngFor="let i of [1,1,1,1,1]" >
+    <ion-col size="1.5">
+      <img src="./assets/icon/dp.png">
+    </ion-col>
+    <ion-col><div class="name1">Bruno Pham</div>
+      <div class="cmt">Great shot! I love it</div>
+      <div class="time1">2 mins ago</div>
+    </ion-col>
+    <ion-col class="col22" size="2">
+      <div class="num">02</div><ion-icon class="heart" name="heart"></ion-icon>
+
+    </ion-col>
+   </ion-row>
+
+
+   <ion-row class="row11">
+    <ion-col size="2">
+      <img src="./assets/icon/dp.png">
+    </ion-col>
+    <ion-col size="7">
+      <ion-input placeholder="Add a comment"></ion-input>
+    </ion-col>
+    <ion-col size="3"><ion-chip class="chip">post</ion-chip></ion-col>
+   </ion-row>
+    </ion-grid
+></ion-content>

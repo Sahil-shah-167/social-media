@@ -1,0 +1,43 @@
+.bg {
+  background: url(/assets/icon/mask.png);
+  height: 25%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.who {
+  text-align: center;
+  font-weight: 600;
+  text-align: center;
+}
+.row1 {
+  margin-top: 30px;
+}
+.grid {
+  width: 338px;
+}
+.message {
+  text-align: center;
+  font-size: small;
+  color: #5252c7;
+  margin-top: 20px;
+}
+.rbtn {
+  display: flex;
+  justify-content: center;
+  color: #f3f5f7;
+  font-weight: 550;
+  font-size: 14px;
+  height: 50px;
+  position: fixed;
+  bottom: 6px;
+  background: #5252c7;
+  width: 82%;
+  border-radius: 28px;
+}
+.login {
+  background-color: #5252c7;
+  border-radius: 25px;
+
+  margin-top: 35px;
+  margin: 0px 30px;
+}

@@ -1,0 +1,58 @@
+<ion-content>
+  <div class="bg">
+    <ion-row class="mainid">
+      <ion-col size="10" class="id">@brunopham</ion-col>
+      <ion-col size="2"
+        ><ion-icon name="settings-outline" class="set"></ion-icon
+      ></ion-col>
+    </ion-row>
+    <div class="dp"><img src="./assets/icon/circledp.png" /></div>
+  </div>
+  <div class="name">Bruno Pham</div>
+  <div class="name2">Da Nang, Vietnam</div>
+
+  <ion-row class="num">
+    <ion-col size="6" class="folow"
+      ><div class="int">220</div>
+      <div class="text">Followers</div></ion-col
+    >
+    <ion-col size="6" class="folow"
+      ><div class="int">150</div>
+      <div class="text">Following</div></ion-col
+    >
+  </ion-row>
+  <div class="icons">
+    <div><ion-icon name="globe-outline"></ion-icon></div>
+    <div>
+      <ion-icon name="logo-instagram" (click)="oninstaClick()"></ion-icon>
+    </div>
+    <div><ion-icon name="logo-facebook"></ion-icon></div>
+  </div>
+  <ion-row class="menu">
+    <ion-segment
+      [(ngModel)]="selected"
+      style="height: 45px"
+      (ionChange)="segmentChanged($event)"
+      class="segm"
+      mode="ios"
+    >
+      <ion-segment-button value="shots">
+        <ion-label>200 shots</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="collection">
+        <ion-label>10 Collections</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-row>
+
+  <ion-row class="imgmain">
+    <ion-col>
+      <img src="./assets/icon/glass.png" class="img22" />
+      <img src="./assets/icon/av.png" class="img" />
+    </ion-col>
+    <ion-col>
+      <img src="./assets/icon/leaves.png" class="img" />
+      <img src="./assets/icon/girl(1).png" class="img22" />
+    </ion-col>
+  </ion-row>
+</ion-content>

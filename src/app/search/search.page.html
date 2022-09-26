@@ -1,0 +1,18 @@
+<ion-content>
+  <ion-row class="email">
+    <ion-col size="10">
+      <ion-input class="input-class">
+        <ion-icon class="icon" name="search-outline"
+          >Search</ion-icon
+        ></ion-input
+      ></ion-col
+    >
+    <ion-col size="2">
+      <ion-icon class="send" name="share-outline"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <div class="collection" *ngFor="let c of collection">
+    <img class="image" [src]="c.image" />
+    <div class="text">{{c.collectionName}}</div>
+  </div>
+</ion-content>
