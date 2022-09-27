@@ -20,7 +20,7 @@
           class="segm"
           mode="md"
         >
-          <ion-segment-button value="popular">
+          <ion-segment-button value="Popular">
             <ion-label>Popular</ion-label>
           </ion-segment-button>
           <ion-segment-button value="trending">
@@ -36,8 +36,8 @@
 </ion-header>
 
 <ion-content style="--background: #f3f5f7">
-  <div *ngIf="selectedSegment == 'popular'">
-    <ion-card *ngFor="let i of populars">
+  <div *ngIf="selectedSegment == 'Popular'">
+    <ion-card *ngFor="let i of Populars">
       <div class="title">
         <img
           src="./assets/icon/abc23.png "

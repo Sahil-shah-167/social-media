@@ -1,6 +1,11 @@
 .content {
-  --background: url(/assets/icon/Rectangle1973.png);
+  --background: url("/assets/icon/Rectangle1973(2).png");
+  background-repeat: no-repeat;
+  height: 100%;
+  --background-size: 100%;
 }
+// .grid {
+// }
 
 .click {
   font-size: xx-large;
@@ -8,15 +13,16 @@
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15%;
+  margin-bottom: 20%;
 }
 .caption {
   height: 17px;
   text-align: center;
   /* Caption */
-
+  margin-top: 20%;
   font-family: "Circular Std";
-  font-style: normal;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
@@ -36,8 +42,13 @@
   /* Note: backdrop-filter has minimal browser support */
   text-align: center;
   color: lightgray;
+  height: 48px;
+  border-radius: 32px;
 }
 .start {
   text-align: center;
   margin-top: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
 }

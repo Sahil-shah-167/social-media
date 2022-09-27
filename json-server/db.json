@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "name": "Jainik",
+      "password": "123456",
+      "email": "jainik@gmail.com",
+      "followersCount": 200,
+      "followingCount": 150,
+      "id": 1,
+      "shots": [
+        {}
+      ],
+      "collections": [
+        {}
+      ]
+    },
+    {
+      "name": "y7rt7",
+      "password": "tusstu",
+      "email": "ertytyu",
+      "id": 2
+    },
+    {
+      "name": "y7rt7",
+      "password": "tusstu",
+      "email": "ertytyu",
+      "id": 3
+    },
+    {
+      "name": "y7rt7",
+      "password": "tusstu",
+      "email": "ertytyu",
+      "id": 4
+    },
+    {
+      "name": "y7rt7",
+      "password": "tusstu",
+      "email": "ertytyu",
+      "id": 5
+    },
+    {
+      "name": "y7rt7",
+      "password": "tusstu",
+      "email": "ertytyu",
+      "id": 6
+    },
+    {
+      "name": "fdgfdgg",
+      "password": "jkgytf",
+      "email": "dgfsdg",
+      "id": 7
+    },
+    {
+      "name": "fdgfdgg",
+      "password": "jkgytf",
+      "email": "dgfsdg",
+      "id": 8
+    }
+  ],
+  "trendingPosts": [],
+  "popularPosts": [],
+  "followingPosts": []
+}
