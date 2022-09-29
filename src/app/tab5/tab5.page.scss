@@ -3,12 +3,13 @@
   height: 25%;
   width: 100%;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .id {
   color: white;
   text-align: center;
   font-weight: 800;
-  padding-left: 20%;
+  padding-left: 15%;
 }
 .set {
   color: white;
@@ -45,7 +46,7 @@
   width: 347px;
   height: 40px;
   padding: 8px 20px;
-  margin: 4%;
+  margin: 6%;
 }
 .int {
   font-size: 14px;
@@ -70,7 +71,6 @@
 }
 
 .img {
-  height: 103.33333587646484px;
   width: 155px;
   left: 195px;
   top: 449px;
@@ -82,4 +82,8 @@
 .imgmain {
   padding-left: 6%;
   padding-right: 6%;
+}
+.arrow {
+  color: white;
+  font-size: x-large;
 }

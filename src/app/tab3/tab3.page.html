@@ -1,15 +1,18 @@
+<ion-header> <ion-row class="logos">
+  <ion-col size="7.5" class="arrow" (click)="onBackClick()">
+    <ion-icon  name="arrow-back-outline"></ion-icon>
+  </ion-col>
+  <ion-col size="1.5"><ion-icon name="heart-outline"></ion-icon></ion-col>
+  <ion-col size="1.5"
+    ><ion-icon (click)="oncircleClick()" name="add-circle-outline"></ion-icon
+  ></ion-col>
+  <ion-col size="1.5"><ion-icon name="share-outline"></ion-icon> </ion-col>
+</ion-row></ion-header>
+
+
 <ion-content>
   <ion-grid class="grid">
-    <ion-row class="logos">
-      <ion-col size="7.5" class="arrow">
-        <ion-icon (click)="onBackClick()" name="arrow-back-outline"></ion-icon>
-      </ion-col>
-      <ion-col size="1.5"><ion-icon name="heart-outline"></ion-icon></ion-col>
-      <ion-col size="1.5"
-        ><ion-icon (click)="oncircleClick()" name="add-circle-outline"></ion-icon
-      ></ion-col>
-      <ion-col size="1.5"><ion-icon name="share-outline"></ion-icon> </ion-col>
-    </ion-row>
+   
 
     <ion-row class=>
       <ion-col size="2">

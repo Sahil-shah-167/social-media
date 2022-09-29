@@ -17,5 +17,7 @@ export class TabsPage {
     console.log('Seleted Value :- ', this.selectedTab);
   }
 
-  onaddClick() {}
+  onaddClick() {
+    this.navctrl.navigateForward('addcollection');
+  }
 }

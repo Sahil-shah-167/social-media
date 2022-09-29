@@ -11,33 +11,50 @@ import { GetStartedPage } from '../auth/getstarted/get-started.page';
 export class Tab1Page {
   Popular = [
     {
-      profile: '',
-      name: 'Jainik Patel',
+      profile: './assets/icon/circledp.png',
+      name: 'Thomas.VD',
+
+      time: '10 hour ago',
+      postImage: './assets/icon/9w(1).png',
+      commentCount: '1k',
+      likeCount: '38k',
+    },
+    {
+      profile: './assets/icon/dp.png',
+      name: 'Herry',
       time: '2 hour ago',
-      postImage: './assets/icon/wall.jpeg',
-      commentCount: '31k',
-      likeCount: '40k',
+      postImage: './assets/icon/abcd.png',
+      commentCount: '1k',
+      likeCount: '4k',
+    },
+    {
+      profile: './assets/icon/circledp.png',
+      name: 'krish jem',
+      time: '38 min ago',
+      postImage: './assets/icon/9w(2).png',
+      commentCount: '1.5k',
+      likeCount: '8k',
     },
   ];
   trending = [
     {
-      profile: '',
-      name: 'Sahil Patel',
+      profile: './assets/icon/circledp.png',
+      name: 'Sahil shah',
       time: '43 min ago',
       postImage: './assets/icon/wall.jpeg',
       commentCount: '1k',
       likeCount: '6k',
     },
     {
-      profile: '',
+      profile: './assets/icon/circledp.png',
       name: 'dipak Patel',
       time: '7 hour ago',
-      postImage: './assets/icon/abcd2.png',
+      postImage: './assets/icon/av.png',
       commentCount: '1k',
       likeCount: '5k',
     },
     {
-      profile: '',
+      profile: './assets/icon/circledp.png',
       name: 'dipak Patel',
       time: '1 hour ago',
       postImage: './assets/icon/colors.png',
@@ -47,7 +64,7 @@ export class Tab1Page {
   ];
   following = [
     {
-      profile: '',
+      profile: './assets/icon/circledp.png',
       name: 'dipak Patel',
       time: '1 hour ago',
       postImage: './assets/icon/abcd2.png',
@@ -55,7 +72,7 @@ export class Tab1Page {
       likeCount: '56k',
     },
     {
-      profile: '',
+      profile: './assets/icon/circledp.png',
       name: 'Jainik Patel',
       time: '2 hour ago',
       postImage: './assets/icon/abcd.png',
@@ -63,8 +80,8 @@ export class Tab1Page {
       likeCount: '40k',
     },
     {
-      profile: '',
-      name: 'Jainik Patel',
+      profile: './assets/icon/circledp.png',
+      name: 'Sahil shah',
       time: '2 hour ago',
       postImage: './assets/icon/d.png',
       commentCount: '31k',

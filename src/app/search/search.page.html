@@ -1,4 +1,4 @@
-<ion-content>
+<ion-header>
   <ion-row class="email">
     <ion-col size="10">
       <ion-input class="input-class">
@@ -11,6 +11,9 @@
       <ion-icon class="send" name="share-outline"></ion-icon>
     </ion-col>
   </ion-row>
+</ion-header>
+
+<ion-content>
   <div class="collection" *ngFor="let c of collection">
     <img class="image" [src]="c.image" />
     <div class="text">{{c.collectionName}}</div>

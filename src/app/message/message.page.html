@@ -1,4 +1,4 @@
-<ion-content>
+<ion-header>
   <ion-row class="row">
     <ion-col size="1">
       <ion-icon name="arrow-back-outline" (click)="onarrowClick()"></ion-icon>
@@ -6,6 +6,9 @@
     <ion-col class="title" size="10">Message</ion-col>
     <ion-col size="1"><ion-icon name="create-outline"></ion-icon></ion-col>
   </ion-row>
+</ion-header>
+
+<ion-content>
   <ion-grid *ngFor="let i of [1,1,1,1,]">
     <ion-row class="comment">
       <ion-col size="1.5">

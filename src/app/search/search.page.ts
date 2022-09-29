@@ -22,12 +22,20 @@ export class SearchPage implements OnInit {
       collectionName: 'IILUSTRATION',
     },
     {
-      image: 'assets/icon/wall.jpeg',
+      image: 'assets/icon/colors.png',
       collectionName: 'DESIGN',
     },
     {
-      image: 'assets/icon/abcd2.png',
+      image: 'assets/icon/girl(1).png',
       collectionName: 'MAKING VIDEO',
+    },
+    {
+      image: 'assets/icon/abcd.png',
+      collectionName: 'Editing',
+    },
+    {
+      image: 'assets/icon/colors.png',
+      collectionName: 'Portrait',
     },
   ];
 

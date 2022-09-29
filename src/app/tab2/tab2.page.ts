@@ -11,6 +11,10 @@ export interface topic {
   image1: string;
   collectionName1: string;
 }
+export interface Photography {
+  image2: string;
+  collectionName2: string;
+}
 
 @Component({
   selector: 'app-tab2',
@@ -25,7 +29,7 @@ export class Tab2Page {
       photoCount: 75,
     },
     {
-      image: 'assets/icon/collection1.png',
+      image: 'assets/icon/abcd.png',
       collectionName: 'MUSIC VIDEO',
       photoCount: 10,
     },
@@ -48,6 +52,21 @@ export class Tab2Page {
     {
       image1: 'assets/icon/d.png',
       collectionName1: 'PORTRAIT PHOTO',
+    },
+  ];
+  
+  Photography: Photography[] = [
+    {
+      image2: 'assets/icon/d.png',
+      collectionName2: 'PHOTOGRAPHY',
+    },
+    {
+      image2: 'assets/icon/c.png',
+      collectionName2: 'UI DESIGN',
+    },
+    {
+      image2: 'assets/icon/d.png',
+      collectionName2: 'PORTRAIT PHOTO',
     },
   ];
   constructor(private navctrl: NavController) {}
